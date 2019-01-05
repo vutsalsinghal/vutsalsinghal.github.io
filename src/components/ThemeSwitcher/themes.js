@@ -1,6 +1,7 @@
 const themes = [
   {
     name: 'blue',
+    firstTime: true,
     colorPrimary: '#4ea9da',
     colorAlternate: '#FAFAFA',
     colorHighlight: '#daedf7',
@@ -17,7 +18,6 @@ const themes = [
   },
   {
     name: 'blue-alt',
-    firstTime: true,
     colorPrimary: '#FAFAFA',
     colorAlternate: '#4ea9da',
     colorHighlight: '#2a93cb',
