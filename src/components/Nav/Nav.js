@@ -40,7 +40,7 @@ class Nav extends Component {
 
   render() {
     const {
-      theme: { colorPrimary, bgPrimary, navAlpha },
+      theme: { colorPrimary, bgPrimary, navAlpha, colorHighlight },
       switchTheme
     } = this.context;
 
@@ -63,7 +63,7 @@ class Nav extends Component {
         <style jsx="true">
           {`
             .menu__item:hover {
-              border-bottom: 2px solid ${colorPrimary};
+              background-color: ${colorHighlight};
             }
           `}
         </style>
@@ -72,13 +72,13 @@ class Nav extends Component {
             className="menu__item active"
             onClick={(e) => this.scrollToPage('.about-page')}
           >
-            About
+            ABOUT
           </div>
           <div
             className="menu__item"
             onClick={(e) => this.scrollToPage('.portfolio-page')}
           >
-            Portfolio
+            PROJECTS
           </div>
         </div>
       </nav>

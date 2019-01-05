@@ -21,7 +21,7 @@ class App extends Component {
           <AboutPage />
           <PortfolioPage />
           <ScrollTop />
-          {/*<Footer />*/}
+          <Footer />
         </ThemeSwitcher>
       </div>
     );

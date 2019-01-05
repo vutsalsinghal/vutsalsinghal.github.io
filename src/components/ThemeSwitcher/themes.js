@@ -1,7 +1,6 @@
 const themes = [
   {
     name: 'blue',
-    firstTime: true,
     colorPrimary: '#4ea9da',
     colorAlternate: '#FAFAFA',
     colorHighlight: '#daedf7',
@@ -34,7 +33,6 @@ const themes = [
   },
   {
     name: 'green',
-    firstTime: true,
     colorPrimary: '#5BA150',
     colorAlternate: '#FAFAFA',
     colorHighlight: '#e1efdf',
@@ -43,6 +41,7 @@ const themes = [
   },
   {
     name: 'red',
+    firstTime: true,
     colorPrimary: '#af3d4e',
     colorAlternate: '#FAFAFA',
     colorHighlight: '#f6e4e7',
@@ -60,6 +59,7 @@ const themes = [
   },
   {
     name: 'indigo-alt',
+    firstTime: true,
     colorPrimary: '#FAFAFA',
     colorAlternate: '#303F9F',
     colorHighlight: '#242f78',

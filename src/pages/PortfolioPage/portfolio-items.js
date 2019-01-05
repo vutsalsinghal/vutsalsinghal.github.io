@@ -98,4 +98,50 @@ export default [{
       </div>
     </div>
   )
+},{
+  name: 'cleanFlow',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+      CleanFlow
+      </div>
+      <div className='portfolio-item__desc'>
+        <ul>
+          <li>- Built a library for cleaning, pre-processing and exploring big data in a scalable and distributed manner.</li>
+          <li>- Created a PyPi package</li>
+        </ul>
+      </div>
+      <div className='portfolio-item__icon'>
+        <i className="fab fa-python"></i>
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/CleanFlow"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://pypi.org/project/CleanFlow/"><i className="fab fa-python" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  )
+},{
+  name: 'attendanceCoin',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+      Attendance Coin
+      </div>
+      <div className='portfolio-item__desc'>
+        <ul>
+          <li>- Created a fungible ERC20 coin “Attendance Coin” and a non-fungible ERC721 “Class Badge”</li>
+          <li>- Built a faucet for initial coin disbursement</li>
+        </ul>
+      </div>
+      <div className='portfolio-item__icon'>
+        <i className="fab fa-react"></i>
+        <i className="fab fa-js"></i>
+        <i className="fab fa-ethereum"></i>
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/Attendance_Coin"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://vutsalsinghal.github.io/Attendance_Coin"><i className="fa fa-globe" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  )
 }]
