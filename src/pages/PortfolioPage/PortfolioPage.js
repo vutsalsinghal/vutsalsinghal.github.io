@@ -28,6 +28,13 @@ const PortfolioPage = (props, context) => {
               .portfolio-item__links a:hover {
                 border-bottom: 2px solid ${colorAlternate};
               }
+
+              .portfolio-item__desc{
+                ul{
+                  text-align: justify;
+                  text-justify: auto;
+                }
+              }
             `}
           </style>
           {/* <PortfolioItem /> */}

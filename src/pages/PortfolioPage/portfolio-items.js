@@ -8,6 +8,10 @@ export default [{
       <div className='portfolio-item__title'>
         Zatanna
       </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/Zatanna"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/G_j0pi-ivbs"><i className="fab fa-youtube"></i></a>
+      </div>
       <div className='portfolio-item__desc'>
         <ul>
           <li>- Music Streaming service built using Ethereum</li>
@@ -21,10 +25,6 @@ export default [{
         <i className="fab fa-ethereum"></i>
         <i className="fab fa-amazon"></i>
       </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/Zatanna"><i className="fab fa-github"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/G_j0pi-ivbs"><i className="fab fa-youtube"></i></a>
-      </div>
     </div>
   )
 },{
@@ -33,6 +33,9 @@ export default [{
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
         Dining Concierge
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/AWS_Chatbot"><i className="fab fa-github"></i></a>
       </div>
       <div className='portfolio-item__desc'>
         <ul>
@@ -45,9 +48,6 @@ export default [{
         <i className="fab fa-js"></i>
         <i className="fab fa-amazon"></i>
       </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/AWS_Chatbot"><i className="fab fa-github"></i></a>
-      </div>
     </div>
   )
 },{
@@ -56,6 +56,10 @@ export default [{
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
         Off-Chain Storage
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/Off-Chain-Storage"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="http://dapp.pythonanywhere.com/ipfsLink"><i className="fa fa-globe" aria-hidden="true"></i></a>
       </div>
       <div className='portfolio-item__desc'>
         <ul>
@@ -68,10 +72,6 @@ export default [{
         <i className="fab fa-js"></i>
         <i className="fab fa-ethereum"></i>
       </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/Off-Chain-Storage"><i className="fab fa-github"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="http://dapp.pythonanywhere.com/ipfsLink"><i className="fa fa-globe" aria-hidden="true"></i></a>
-      </div>
     </div>
   )
 },{
@@ -80,6 +80,10 @@ export default [{
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
       Digits Classification
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/Django_MNIST_wrapper"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://pyofeyblog.pythonanywhere.com/mnist"><i className="fa fa-globe" aria-hidden="true"></i></a>
       </div>
       <div className='portfolio-item__desc'>
         <ul>
@@ -92,10 +96,6 @@ export default [{
         <i className="fab fa-js"></i>
         <i className="fab fa-ethereum"></i>
       </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/Django_MNIST_wrapper"><i className="fab fa-github"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://pyofeyblog.pythonanywhere.com/mnist"><i className="fa fa-globe" aria-hidden="true"></i></a>
-      </div>
     </div>
   )
 },{
@@ -104,6 +104,10 @@ export default [{
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
       CleanFlow
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/CleanFlow"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://pypi.org/project/CleanFlow/"><i className="fab fa-python" aria-hidden="true"></i></a>
       </div>
       <div className='portfolio-item__desc'>
         <ul>
@@ -114,10 +118,6 @@ export default [{
       <div className='portfolio-item__icon'>
         <i className="fab fa-python"></i>
       </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/CleanFlow"><i className="fab fa-github"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://pypi.org/project/CleanFlow/"><i className="fab fa-python" aria-hidden="true"></i></a>
-      </div>
     </div>
   )
 },{
@@ -126,6 +126,10 @@ export default [{
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
       Attendance Coin
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/Attendance_Coin"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://vutsalsinghal.github.io/Attendance_Coin"><i className="fa fa-globe" aria-hidden="true"></i></a>
       </div>
       <div className='portfolio-item__desc'>
         <ul>
@@ -137,10 +141,6 @@ export default [{
         <i className="fab fa-react"></i>
         <i className="fab fa-js"></i>
         <i className="fab fa-ethereum"></i>
-      </div>
-      <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/Attendance_Coin"><i className="fab fa-github"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://vutsalsinghal.github.io/Attendance_Coin"><i className="fa fa-globe" aria-hidden="true"></i></a>
       </div>
     </div>
   )
