@@ -27,7 +27,7 @@ export default [{
       </div>
     </div>
   )
-},{
+}, {
   name: 'diningConcierge',
   render: (
     <div className='portfolio-item'>
@@ -50,7 +50,7 @@ export default [{
       </div>
     </div>
   )
-},{
+}, {
   name: 'offChainStorage',
   render: (
     <div className='portfolio-item'>
@@ -74,12 +74,12 @@ export default [{
       </div>
     </div>
   )
-},{
+}, {
   name: 'handwrittenDigit',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-      Digits Classification
+        Digits Classification
       </div>
       <div className='portfolio-item__links'>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/Django_MNIST_wrapper"><i className="fab fa-github"></i></a>
@@ -98,12 +98,12 @@ export default [{
       </div>
     </div>
   )
-},{
+}, {
   name: 'cleanFlow',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-      CleanFlow
+        CleanFlow
       </div>
       <div className='portfolio-item__links'>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/CleanFlow"><i className="fab fa-github"></i></a>
@@ -120,12 +120,12 @@ export default [{
       </div>
     </div>
   )
-},{
+}, {
   name: 'attendanceCoin',
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-      Attendance Coin
+        Attendance Coin
       </div>
       <div className='portfolio-item__links'>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/Attendance_Coin"><i className="fab fa-github"></i></a>
@@ -135,6 +135,29 @@ export default [{
         <ul>
           <li>- Created a fungible ERC20 coin “Attendance Coin” and a non-fungible ERC721 “Class Badge”</li>
           <li>- Built a faucet for initial coin disbursement</li>
+        </ul>
+      </div>
+      <div className='portfolio-item__icon'>
+        <i className="fab fa-react"></i>
+        <i className="fab fa-js"></i>
+        <i className="fab fa-ethereum"></i>
+      </div>
+    </div>
+  )
+}, {
+  name: 'passwordManager',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        Password Manager
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://allsafe.pythonanywhere.com/"><i className="fa fa-globe" aria-hidden="true"></i></a>
+      </div>
+      <div className='portfolio-item__desc'>
+        <ul>
+          <li>- Created a web and android (using Sketchware) app</li>
+          <li>- Implemented Two-Step authentication, password reset, login history, etc from scratch.</li>
         </ul>
       </div>
       <div className='portfolio-item__icon'>
