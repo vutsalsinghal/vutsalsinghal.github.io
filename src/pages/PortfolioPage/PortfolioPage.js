@@ -8,7 +8,7 @@ import './style.scss';
 
 const PortfolioPage = (props, context) => {
   const {
-    theme: { colorPrimary, colorAlternate, textAlternate, bgPrimary }
+    theme: { colorPrimary, colorAlternate, textAlternate, bgPrimary, colorHighlight }
   } = context;
 
   return (
@@ -21,19 +21,19 @@ const PortfolioPage = (props, context) => {
               .portfolio-item {
                 background-color: ${colorPrimary};
                 color: ${textAlternate};
+                width: 15em;
               }
               .portfolio-item a {
                 color: ${textAlternate};
               }
               .portfolio-item__links a:hover {
                 border-bottom: 2px solid ${colorAlternate};
+                background-color: ${colorHighlight};
+                color:#fff;
               }
 
               .portfolio-item__desc{
-                ul{
-                  text-align: justify;
-                  text-justify: auto;
-                }
+                text-align: justify;
               }
             `}
           </style>

@@ -2,6 +2,30 @@ import React from 'react';
 import './style.scss';
 
 export default [{
+  name: 'docker4edu',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        Docker For Edu
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/docker-for-ed"><i className="fab fa-github"></i></a>
+      </div>
+      <div className='portfolio-item__desc'>
+        <ul>
+          <li>● Created a common repository containing several docker images for various courses at NYU.</li>
+          <li>● Automated the devops pipeline using Travis CI. Decreased Travis build time by 50% using cache.</li>
+        </ul>
+      </div>
+      <div className='portfolio-item__icon'>
+        <i className="fab fa-docker"></i>
+        <i className="fab fa-python"></i>
+        <i className="fab fa-react"></i>
+        <i className="fab fa-js"></i>
+      </div>
+    </div>
+  )
+}, {
   name: 'zatanna',
   render: (
     <div className='portfolio-item'>
@@ -14,8 +38,8 @@ export default [{
       </div>
       <div className='portfolio-item__desc'>
         <ul>
-          <li>- Music Streaming service built using Ethereum</li>
-          <li>- Built a recommender system using AWS Sagemaker to help discover new songs</li>
+          <li>● Music Streaming service built using Ethereum</li>
+          <li>● Built a recommender system using AWS Sagemaker to help discover new songs</li>
         </ul>
       </div>
       <div className='portfolio-item__icon'>
@@ -39,8 +63,8 @@ export default [{
       </div>
       <div className='portfolio-item__desc'>
         <ul>
-          <li>- Built a highly scalable, serverless chatbot using AWS</li>
-          <li>- Integrated the chatbot with an amazing ReactJS front-end</li>
+          <li>● Built a highly scalable, serverless chatbot using AWS</li>
+          <li>● Integrated the chatbot with an amazing ReactJS front-end</li>
         </ul>
       </div>
       <div className='portfolio-item__icon'>
@@ -63,8 +87,8 @@ export default [{
       </div>
       <div className='portfolio-item__desc'>
         <ul>
-          <li>- Created a dapp to address the high cost of storage onchain</li>
-          <li>- The IPFS hash of the data uploaded is pushed on-chain</li>
+          <li>● Created a dapp to address the high cost of storage onchain</li>
+          <li>● The IPFS hash of the data uploaded is pushed on-chain</li>
         </ul>
       </div>
       <div className='portfolio-item__icon'>
@@ -87,8 +111,8 @@ export default [{
       </div>
       <div className='portfolio-item__desc'>
         <ul>
-          <li>- Trained a CNN on 60k/10k handwritten digit with a validation accuracy of 99.21%</li>
-          <li>- Created an amazing Django wrapper to interact with it</li>
+          <li>● Trained a CNN on 60k/10k handwritten digit with a validation accuracy of 99.21%</li>
+          <li>● Created an amazing Django wrapper to interact with it</li>
         </ul>
       </div>
       <div className='portfolio-item__icon'>
@@ -111,8 +135,8 @@ export default [{
       </div>
       <div className='portfolio-item__desc'>
         <ul>
-          <li>- Built a library for cleaning, pre-processing and exploring big data in a scalable and distributed manner.</li>
-          <li>- Created a PyPi package</li>
+          <li>● Built a library for cleaning, pre-processing and exploring big data in a scalable and distributed manner.</li>
+          <li>● Created a PyPi package</li>
         </ul>
       </div>
       <div className='portfolio-item__icon'>
@@ -133,8 +157,8 @@ export default [{
       </div>
       <div className='portfolio-item__desc'>
         <ul>
-          <li>- Created a fungible ERC20 coin “Attendance Coin” and a non-fungible ERC721 “Class Badge”</li>
-          <li>- Built a faucet for initial coin disbursement</li>
+          <li>● Created a fungible ERC20 coin “Attendance Coin” and a non-fungible ERC721 “Class Badge”</li>
+          <li>● Built a faucet for initial coin disbursement</li>
         </ul>
       </div>
       <div className='portfolio-item__icon'>
@@ -156,8 +180,8 @@ export default [{
       </div>
       <div className='portfolio-item__desc'>
         <ul>
-          <li>- Created a web and android (using Sketchware) app</li>
-          <li>- Implemented Two-Step authentication, password reset, login history, etc from scratch.</li>
+          <li>● Created a web and android (using Sketchware) app</li>
+          <li>● Implemented Two-Step authentication, password reset, login history, etc from scratch.</li>
         </ul>
       </div>
       <div className='portfolio-item__icon'>
