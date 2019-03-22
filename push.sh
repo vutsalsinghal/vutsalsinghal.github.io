@@ -4,8 +4,7 @@ git config --global user.email "travis@travis-ci.org"
 git config --global user.name "Travis CI"
 git checkout master
 
-rm -r static asset-manifest.json index.html manifest.json
-cp -r build/* .
+touch temp
 git add .
 git commit -m "Updated build files"
 
