@@ -32,6 +32,8 @@ jobs:
           command: gh-pages --dist build --branch master --message "[skip ci] Updated build files"
       - save_cache:
           key: source-v1-{{ .Branch }}
+          paths:
+            - ".git"
 
 workflows:
   version: 2
