@@ -4,6 +4,9 @@ jobs:
     docker:
       - image: node:8.10
     steps:
+      - restore_cache:
+          keys:
+            - source-v1-
       - checkout
       - run:
           name: Install dependencies
@@ -25,7 +28,9 @@ jobs:
             - "a9:ee:a1:01:e3:fd:60:b2:fe:ab:63:e3:2b:74:59:ff"
       - run:
           name: Deploy docs to gh-pages branch
-          command: gh-pages --dist build --branch master
+          command: gh-pages --dist build --branch master --message "[skip ci] Updated build files"
+      - save_cache:
+          key: source-v1-{{ .Branch }}
 
 workflows:
   version: 2
