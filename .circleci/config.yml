@@ -10,7 +10,7 @@ jobs:
           command: npm install
       - run:
          name: Building React site
-         command: npm run build && ls -lah
+         command: npm run build
   
   site-deploy:
     docker:
@@ -25,6 +25,7 @@ jobs:
             npm install -g --silent gh-pages
             git config user.email "vutsalsinghal@gmail.com"
             git config user.name "vutsalsinghal"
+            ls -lah
       - add_ssh_keys:
           fingerprints:
             - "a9:ee:a1:01:e3:fd:60:b2:fe:ab:63:e3:2b:74:59:ff"
