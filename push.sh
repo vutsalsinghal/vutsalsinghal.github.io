@@ -6,6 +6,7 @@ git config --global user.name "Travis CI"
 git branch
 
 touch temp
+git status
 git add .
 git commit -m "Updated build files"
 
