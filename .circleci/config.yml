@@ -1,13 +1,18 @@
 version: 2
 jobs: 
-  build:
+  site-build:
     docker:
       - image: circleci/node:8.10
     steps:
       - checkout
-      - run: npm install
-      - run: npm run build
-  deploy:
+      - run:
+          name: Install dependencies
+          command: npm install
+      - run:
+         name: Building React site
+         command: npm run build
+  
+  site-deploy:
     docker:
       - image: circleci/node:8.10
     steps:
@@ -15,11 +20,11 @@ jobs:
       - attach_workspace:
           at: build
       - run:
-        name: Install and configure dependencies
-        command: |
-          npm install -g --silent gh-pages
-          git config user.email "vutsalsinghal@gmail.com"
-          git config user.name "vutsalsinghal"
+          name: Install and configure dependencies
+          command: |
+            npm install -g --silent gh-pages
+            git config user.email "vutsalsinghal@gmail.com"
+            git config user.name "vutsalsinghal"
       - add_ssh_keys:
           fingerprints:
             - "a9:ee:a1:01:e3:fd:60:b2:fe:ab:63:e3:2b:74:59:ff"
@@ -31,10 +36,10 @@ workflows:
   version: 2
   build:
     jobs:
-      - build
-      - deploy:
-        requires: 
-          - build
-        filters:
-          branches:
-            only: code
+      - site-build
+      - site-deploy:
+          requires: 
+            - site-build
+          filters:
+            branches:
+              only: code
