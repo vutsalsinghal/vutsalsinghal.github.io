@@ -2,7 +2,7 @@ version: 2
 jobs: 
   site-build:
     docker:
-      - image: circleci/node:8.10
+      - image: node:8.10
     steps:
       - checkout
       - run:
@@ -14,7 +14,7 @@ jobs:
   
   site-deploy:
     docker:
-      - image: circleci/node:8.10
+      - image: node:8.10
     steps:
       - checkout
       - attach_workspace:
