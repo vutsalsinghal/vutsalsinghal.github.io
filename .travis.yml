@@ -8,6 +8,13 @@ install:
   - npm install
 script:
   - npm run build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  target-branch: master
+  verbose: true
+  keep-history: true
 after_success:
   - sh push.sh
 on:
