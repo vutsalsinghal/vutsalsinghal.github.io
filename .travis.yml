@@ -5,6 +5,9 @@ cache:
   directories:
   - node_modules
 before_install:
+  - echo $TRAVIS_REPO_SLUG
+  - git clone https://github.com/vutsalsinghal/vutsalsinghal.github.io.git .
+  - git checkout code
   - git pull
 install:
   - npm install
