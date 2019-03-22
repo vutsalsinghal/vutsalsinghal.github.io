@@ -38,7 +38,7 @@ export default [{
       </div>
       <div className='portfolio-item__desc'>
         <ul>
-          <li>● Music Streaming service built using Ethereum</li>
+          <li>● Music Streaming service built using Ethereum blockchain and AWS.</li>
           <li>● Built a recommender system using AWS Sagemaker to help discover new songs</li>
         </ul>
       </div>
