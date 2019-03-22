@@ -63,7 +63,7 @@ export default [{
       </div>
       <div className='portfolio-item__desc'>
         <ul>
-          <li>● Built a highly scalable, serverless chatbot using AWS</li>
+          <li>● Built a highly scalable, serverless chatbot using AWS to get restaurant recommendations on mobile based on the cusine</li>
           <li>● Integrated the chatbot with an amazing ReactJS front-end</li>
         </ul>
       </div>
