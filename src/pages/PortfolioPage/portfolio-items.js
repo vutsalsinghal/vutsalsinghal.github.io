@@ -83,7 +83,7 @@ export default [{
       </div>
       <div className='portfolio-item__links'>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/Off-Chain-Storage"><i className="fab fa-github"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="http://dapp.pythonanywhere.com/ipfsLink"><i className="fa fa-globe" aria-hidden="true"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="http://dapp.pythonanywhere.com/ipfsLink"><i className="fa fa-globe"></i></a>
       </div>
       <div className='portfolio-item__desc'>
         <ul>
@@ -107,7 +107,7 @@ export default [{
       </div>
       <div className='portfolio-item__links'>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/Django_MNIST_wrapper"><i className="fab fa-github"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://pyofeyblog.pythonanywhere.com/mnist"><i className="fa fa-globe" aria-hidden="true"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://pyofeyblog.pythonanywhere.com/mnist"><i className="fa fa-globe"></i></a>
       </div>
       <div className='portfolio-item__desc'>
         <ul>
@@ -131,7 +131,7 @@ export default [{
       </div>
       <div className='portfolio-item__links'>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/CleanFlow"><i className="fab fa-github"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://pypi.org/project/CleanFlow/"><i className="fab fa-python" aria-hidden="true"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://pypi.org/project/CleanFlow/"><i className="fab fa-python"></i></a>
       </div>
       <div className='portfolio-item__desc'>
         <ul>
@@ -153,7 +153,7 @@ export default [{
       </div>
       <div className='portfolio-item__links'>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/Attendance_Coin"><i className="fab fa-github"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://vutsalsinghal.github.io/Attendance_Coin"><i className="fa fa-globe" aria-hidden="true"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://vutsalsinghal.github.io/Attendance_Coin"><i className="fa fa-globe"></i></a>
       </div>
       <div className='portfolio-item__desc'>
         <ul>
@@ -176,7 +176,7 @@ export default [{
         Password Manager
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://allsafe.pythonanywhere.com/"><i className="fa fa-globe" aria-hidden="true"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://allsafe.pythonanywhere.com/"><i className="fa fa-globe"></i></a>
       </div>
       <div className='portfolio-item__desc'>
         <ul>

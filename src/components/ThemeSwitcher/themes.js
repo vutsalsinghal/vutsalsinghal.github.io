@@ -8,20 +8,21 @@ const themes = [
     navAlpha: 'rgba(250, 250, 250, 0.75)'
   },
   {
+    name: 'blue-alt',
+    firstTime: true,
+    colorPrimary: '#FAFAFA',
+    colorAlternate: '#0277BD',
+    colorHighlight: '#7db1d1',
+    textPrimary: '#FAFAFA',
+    navAlpha: 'rgba(69, 90, 100, 0.75)'
+  },
+  {
     name: 'cyan',
     colorPrimary: '#3dc0b0',
     colorAlternate: '#FAFAFA',
     colorHighlight: '#d7f2ef',
     textPrimary: '#202121',
     navAlpha: 'rgba(250, 250, 250, 0.75)'
-  },
-  {
-    name: 'blue-alt',
-    colorPrimary: '#FAFAFA',
-    colorAlternate: '#4ea9da',
-    colorHighlight: '#2a93cb',
-    textPrimary: '#FAFAFA',
-    navAlpha: 'rgba(78, 169, 218, 0.75)'
   },
   {
     name: 'cyan-alt',
@@ -40,8 +41,15 @@ const themes = [
     navAlpha: 'rgba(250, 250, 250, 0.75)'
   },
   {
+    name: 'yellow-green',
+    colorPrimary: '#197700',
+    colorAlternate: '#FFEB3B',
+    colorHighlight: '#fffd87',
+    textPrimary: '#202121',
+    navAlpha: 'rgba(250, 250, 250, 0.75)'
+  },
+  {
     name: 'red',
-    firstTime: true,
     colorPrimary: '#af3d4e',
     colorAlternate: '#FAFAFA',
     colorHighlight: '#f6e4e7',
@@ -58,8 +66,16 @@ const themes = [
     navAlpha: 'rgba(137, 48, 61, 0.75)'
   },
   {
-    name: 'indigo-alt',
+    name: 'indigo',
     firstTime: true,
+    colorPrimary: '#303F9F',
+    colorAlternate: '#E8EAF6',
+    colorHighlight: '#99a5ef',
+    textPrimary: '#303F9F',
+    navAlpha: 'rgba(48, 63, 159, 0.75)'
+  },
+  {
+    name: 'indigo-alt',
     colorPrimary: '#FAFAFA',
     colorAlternate: '#303F9F',
     colorHighlight: '#242f78',

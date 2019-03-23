@@ -19,9 +19,9 @@ class ScrollToPrevious extends Component {
         className="scroll-to-previous"
         onClick={(e) => this.scrollToPrevious()}
       >
-        <div className="arrow bounce" style={{ color: colorPrimary }}>
+        <div className="arrow" style={{ color: colorPrimary }}>
           <button className="fas fa-chevron-up fa-2x" href="#" />
-          <div className="scroll-text">Click Me</div>
+          {/*<div className="scroll-text">Click Me</div>*/}
         </div>
       </div>
     );
