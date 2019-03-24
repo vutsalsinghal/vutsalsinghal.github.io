@@ -21,7 +21,7 @@ const AboutPage = (props, context) => {
         `}
       </style>
       <div className="content-grid">
-        <h1 style={{ color: colorPrimary }}>About</h1><br />
+        <h1><span style={{ color: colorPrimary, backgroundColor: colorHighlight }}>About</span></h1><br />
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
@@ -29,8 +29,7 @@ const AboutPage = (props, context) => {
               real-world problems.
             </p>
             <p>
-              I concur with Albert Einstein's words
-              - <span className="highlight">"The more I learn, the more I realize how much I don't know"</span>
+              I live by Albert Einstein's words - <span className="highlight">"The more I learn, the more I realize how much I don't know"</span>
             </p>
             <p className="text-emoji" style={{ color: colorPrimary }}>
               \ (•◡•) /

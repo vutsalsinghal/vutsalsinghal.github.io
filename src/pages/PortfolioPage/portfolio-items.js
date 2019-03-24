@@ -22,6 +22,32 @@ export default [{
         <i className="fab fa-python"></i>
         <i className="fab fa-react"></i>
         <i className="fab fa-js"></i>
+        <i className="fab fa-dev"></i>
+      </div>
+    </div>
+  )
+}, {
+  name: 'portfolio',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        Dev Portfolio
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/vutsalsinghal.github.io"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="http://vutsalsinghal.github.io"><i className="fa fa-globe"></i></a>
+      </div>
+      <div className='portfolio-item__desc'>
+        <ul>
+          <li>● Created React porfolio using opensource template.</li>
+          <li>● Automated the Github pages build using Circle CI.</li>
+        </ul>
+      </div>
+      <div className='portfolio-item__icon'>
+        <i className="fab fa-docker"></i>
+        <i className="fab fa-react"></i>
+        <i className="fab fa-js"></i>
+        <i className="fab fa-dev"></i>
       </div>
     </div>
   )
@@ -180,8 +206,8 @@ export default [{
       </div>
       <div className='portfolio-item__desc'>
         <ul>
-          <li>● Created a web and android (using Sketchware) app</li>
-          <li>● Implemented Two-Step authentication, password reset, login history, etc from scratch.</li>
+          <li>● Created a web and android (using Sketchware) application.</li>
+          <li>● Implemented Two-Step authentication, passwords download, password reset, login history, etc from scratch.</li>
         </ul>
       </div>
       <div className='portfolio-item__icon'>
