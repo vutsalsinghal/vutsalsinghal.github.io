@@ -22,6 +22,7 @@ const PortfolioPage = (props, context) => {
                 background-color: ${colorPrimary};
                 color: ${textAlternate};
                 width: 15em;
+                font-family: 'Roboto Mono', monospace;
               }
               .portfolio-item a {
                 color: ${textAlternate};
@@ -34,6 +35,7 @@ const PortfolioPage = (props, context) => {
 
               .portfolio-item__desc{
                 text-align: justify;
+                font-size:0.9rem;
               }
             `}
           </style>

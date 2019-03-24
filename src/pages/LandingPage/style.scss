@@ -1,4 +1,5 @@
 @import 'breakpoints';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 .landing-page {
   min-height: 100vh;
@@ -6,6 +7,7 @@
   flex: 0 1 auto;
   flex-direction: column;
   justify-content: center;
+  font-family: 'Roboto Mono', monospace;
 
   main {
     display: flex;
