@@ -102,6 +102,7 @@
   },
   "dependencies": {
     "gh-pages": "^1.2.0",
+    "react-ga": "^2.5.7",
     "serve": "^10.1.1"
   }
 }
