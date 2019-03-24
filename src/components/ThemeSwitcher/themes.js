@@ -49,6 +49,14 @@ const themes = [
     navAlpha: 'rgba(250, 250, 250, 0.75)'
   },
   {
+    name: 'yellow-blue',
+    colorPrimary: '#0777BD',
+    colorAlternate: '#FFEB3B',
+    colorHighlight: '#3CBAFC',
+    textPrimary: '#202121',
+    navAlpha: 'rgba(250, 250, 250, 0.75)'
+  },
+  {
     name: 'red',
     colorPrimary: '#af3d4e',
     colorAlternate: '#FAFAFA',
@@ -58,7 +66,6 @@ const themes = [
   },
   {
     name: 'red-alt',
-    firstTime: true,
     colorPrimary: '#FFFFFF',
     colorAlternate: '#89303d',
     colorHighlight: '#63232c',
@@ -76,6 +83,7 @@ const themes = [
   },
   {
     name: 'indigo-alt',
+    firstTime: true,
     colorPrimary: '#FAFAFA',
     colorAlternate: '#303F9F',
     colorHighlight: '#242f78',
@@ -89,14 +97,6 @@ const themes = [
     colorHighlight: '#d4faff',
     textPrimary: '#212121',
     navAlpha: 'rgba(255, 255, 255, 0.75)'
-  },
-  {
-    name: 'material-grey-alt',
-    colorPrimary: '#FFFFFF',
-    colorAlternate: '#455A64',
-    colorHighlight: '#374850',
-    textPrimary: '#FAFAFA',
-    navAlpha: 'rgba(69, 90, 100, 0.75)'
   }
 ];
 
