@@ -25,12 +25,9 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              I love learning new things and applying my skills to solve
-              real-world problems.
+              I live by Albert Einstein's words - <span className="highlight">"The more I learn, the more I realize how much I don't know".</span>
             </p>
-            <p>
-              I live by Albert Einstein's words - <span className="highlight">"The more I learn, the more I realize how much I don't know"</span>
-            </p>
+            <p>I believe in maintaining a strong forward momentum by constantly challenging myself to explore and learn new things.</p>
             <p className="text-emoji" style={{ color: colorPrimary }}>
               \ (•◡•) /
             </p>
