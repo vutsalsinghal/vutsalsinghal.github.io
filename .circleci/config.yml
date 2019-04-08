@@ -15,8 +15,6 @@ jobs:
       - run:
          name: Building React site
          command: npm run build
-      - attach_workspace:
-          at: build
       - run:
           name: Install and configure dependencies
           command: |

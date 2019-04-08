@@ -27,6 +27,32 @@ export default [{
     </div>
   )
 }, {
+  name: 'react-maps',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        React Google Maps Search
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/react-google-maps-search"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://vutsalsinghal.github.io/react-google-maps-search/"><i className="fa fa-globe"></i></a>
+      </div>
+      <div className='portfolio-item__desc'>
+        <ul>
+          <li>● Search nearby places using Google maps API.</li>
+          <li>● Interactive React application.</li>
+          <li>● Automated the devops pipeline using CircleCI.</li>
+        </ul>
+      </div>
+      <div className='portfolio-item__icon'>
+        <i className="fab fa-docker"></i>
+        <i className="fab fa-react"></i>
+        <i className="fab fa-js"></i>
+        <i className="fab fa-dev"></i>
+      </div>
+    </div>
+  )
+}, {
   name: 'portfolio',
   render: (
     <div className='portfolio-item'>
