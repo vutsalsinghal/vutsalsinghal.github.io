@@ -31,11 +31,11 @@ export default [{
   render: (
     <div className='portfolio-item'>
       <div className='portfolio-item__title'>
-        React Google Maps Search
+        Nearby Places
       </div>
       <div className='portfolio-item__links'>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/react-google-maps-search"><i className="fab fa-github"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://vutsalsinghal.github.io/react-google-maps-search/"><i className="fa fa-globe"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/nearby-places"><i className="fab fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://vutsalsinghal.github.io/nearby-places"><i className="fa fa-globe"></i></a>
       </div>
       <div className='portfolio-item__desc'>
         <ul>
@@ -61,7 +61,7 @@ export default [{
       </div>
       <div className='portfolio-item__links'>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/vutsalsinghal.github.io"><i className="fab fa-github"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="http://vutsalsinghal.github.io"><i className="fa fa-globe"></i></a>
+        <a rel="noopener noreferrer" href="http://vutsalsinghal.github.io"><i className="fa fa-globe"></i></a>
       </div>
       <div className='portfolio-item__desc'>
         <ul>
