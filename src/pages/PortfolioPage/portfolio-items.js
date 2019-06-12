@@ -2,6 +2,31 @@ import React from 'react';
 import './style.scss';
 
 export default [{
+  name: 'calorieCompose',
+  render: (
+    <div className='portfolio-item'>
+      <div className='portfolio-item__title'>
+        Calorie Compose
+      </div>
+      <div className='portfolio-item__links'>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/vutsalsinghal/calorie-compose"><i className="fab fa-github"></i></a>
+      </div>
+      <div className='portfolio-item__desc'>
+        <ul>
+          <li>● Scripted container orchestration for 4 containers using docker compose.</li>
+          <li>● Built Node backend with Knex for Postgres and Graphql server with React frontend.</li>
+        </ul>
+      </div>
+      <div className='portfolio-item__icon'>
+        <i className="fab fa-docker"></i>
+        <i className="fab fa-react"></i>
+        <i className="fab fa-js"></i>
+        <i className="fab fa-node"></i>
+        <i className="fab fa-dev"></i>
+      </div>
+    </div>
+  )
+}, {
   name: 'docker4edu',
   render: (
     <div className='portfolio-item'>
