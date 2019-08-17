@@ -10,7 +10,7 @@
     "prebuild": "npm run clean",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "deploy": "aws s3 sync build/ s3://vutsalsinghal --acl public-read",
+    "deploy": "aws s3 sync build/ s3://${bucket} --acl public-read --delete",
     "serve": "serve -s build"
   },
   "devDependencies": {
