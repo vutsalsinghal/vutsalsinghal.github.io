@@ -21,7 +21,7 @@ jobs:
       - run:
           name: Install and configure dependencies
           command: |
-            sudo apt-get -y -qq install awscli
+            apt install python-pip python-dev and pip install awscli
             npm install -g --silent gh-pages
             git config user.email "vutsalsinghal@gmail.com"
             git config user.name "vutsalsinghal"
