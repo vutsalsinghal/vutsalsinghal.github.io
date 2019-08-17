@@ -16,11 +16,10 @@ jobs:
           name: Run Tests
           command: npm run test
       - run:
-          name: Install pip
-          command: sudo apt-get install python-pip python-dev
-      - run:
           name: Install awscli
-          command: sudo pip install awscli
+          command: |
+          sudo apt-get install python-pip python-dev
+          sudo pip install awscli
       - run:
           name: Deploy to S3
           command: npm run deploy
