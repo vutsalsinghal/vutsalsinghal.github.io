@@ -22,7 +22,7 @@ jobs:
           name: Install and configure dependencies
           command: |
             apt-get -y -qq update
-            apt-get -y -qq install python3.4-dev
+            apt-get -y -qq install python3.7-dev
             curl -O https://bootstrap.pypa.io/get-pip.py
             python3.7 get-pip.py --user
             pip3 install awscli --upgrade --user
