@@ -10,7 +10,7 @@ jobs:
             - source-v1-
       - checkout
       - run:
-          name: Install dependencies
+          name: Install node dependencies
           command: npm install
       - run:
           name: Run Tests
@@ -21,7 +21,6 @@ jobs:
       - run:
           name: Install and configure dependencies
           command: |
-            apt install python-pip python-dev and pip install awscli
             npm install -g --silent gh-pages
             git config user.email "vutsalsinghal@gmail.com"
             git config user.name "vutsalsinghal"
@@ -32,6 +31,12 @@ jobs:
       - run:
           name: Deploy to gh-pages
           command: gh-pages --dist build --branch master --message "[skip ci] Updated build files"
+      - run:
+          name: Install PIP
+          command: sudo apt-get install python-pip python-dev
+      - run:
+          name: Install awscli
+          command: sudo pip install awscli
       - run:
           name: Deploy to S3
           command: npm run deploy
