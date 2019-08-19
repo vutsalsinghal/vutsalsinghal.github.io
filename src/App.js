@@ -7,6 +7,10 @@ import ScrollTop from '@components/ScrollTop';
 import ThemeSwitcher from '@components/ThemeSwitcher';
 import Browser from '@components/Browser';
 import Footer from '@components/Footer';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-146042235-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
 
