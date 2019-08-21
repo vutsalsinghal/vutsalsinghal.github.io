@@ -1,10 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-
-import './style';
+import React from "react";
+import PropTypes from "prop-types";
+import "./style";
 
 const ParallaxBackground = (props, context) => {
-  const { theme: { colorPrimary } } = context;
+  const {
+    theme: { colorPrimary }
+  } = context;
 
   return (
     <div className="parallax" style={{ color: colorPrimary }}>
