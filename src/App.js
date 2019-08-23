@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Router, Route, Switch } from "react-router-dom";
 import ThemeSwitcher from "@components/ThemeSwitcher";
 import ParallaxBackground from "@components/ParallaxBackground";
 import LandingPage from "@pages/LandingPage";
@@ -9,38 +9,43 @@ import ScrollTop from "@components/ScrollTop";
 // import Browser from '@components/Browser';
 import Footer from "@components/Footer";
 import ReactGA from "react-ga";
+import createHistory from "history/createBrowserHistory";
+
+ReactGA.initialize("UA-146042235-1");
+ReactGA.pageview(window.location.pathname + window.location.search);
+
+const history = createHistory();
+history.listen(function(location) {
+  window.ga("set", "page", location.pathname + location.search);
+  window.ga("send", "pageview");
+});
 
 class App extends Component {
-  componentDidMount() {
-    ReactGA.initialize("UA-146042235-1");
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }
-
   render() {
     return (
       <div className="dev-landing-page">
-        <BrowserRouter>
-          <ThemeSwitcher>
-            <ParallaxBackground />
-            <Switch>
-              <Route
-                exact
-                path="/"
-                render={() => (
-                  <div>
+        <Router history={history}>
+          <Switch>
+            <Route
+              exact
+              path="/"
+              render={() => (
+                <div>
+                  <ThemeSwitcher>
+                    <ParallaxBackground />
                     <LandingPage />
                     <AboutPage />
                     <PortfolioPage />
-                  </div>
-                )}
-              />
-              <Route exact path="/about" component={AboutPage} />
-              <Route exact path="/projects" component={PortfolioPage} />
-            </Switch>
-            <ScrollTop />
-            <Footer />
-          </ThemeSwitcher>
-        </BrowserRouter>
+                    <ScrollTop />
+                    <Footer />
+                  </ThemeSwitcher>
+                </div>
+              )}
+            />
+            <Route exact path="/about" component={AboutPage} />
+            <Route exact path="/projects" component={PortfolioPage} />
+          </Switch>
+        </Router>
       </div>
     );
   }
