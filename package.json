@@ -101,6 +101,7 @@
   },
   "dependencies": {
     "gh-pages": "^1.2.0",
+    "react-accessible-accordion": "^3.0.0",
     "react-ga": "^2.6.0",
     "react-router-dom": "^5.0.1",
     "serve": "^10.1.1"
