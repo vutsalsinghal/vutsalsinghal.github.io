@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Router, Route, Switch } from "react-router-dom";
+import { Router, Route, Switch, Redirect } from "react-router-dom";
 import ThemeSwitcher from "@components/ThemeSwitcher";
 import ParallaxBackground from "@components/ParallaxBackground";
 import LandingPage from "@pages/LandingPage";
@@ -9,7 +9,7 @@ import ScrollTop from "@components/ScrollTop";
 // import Browser from '@components/Browser';
 import Footer from "@components/Footer";
 import ReactGA from "react-ga";
-import createHistory from "history/createBrowserHistory";
+var createHistory = require("history").createBrowserHistory;
 
 ReactGA.initialize("UA-146042235-1");
 ReactGA.pageview(window.location.pathname + window.location.search);
@@ -42,8 +42,9 @@ class App extends Component {
                 </div>
               )}
             />
-            <Route exact path="/about" component={AboutPage} />
-            <Route exact path="/projects" component={PortfolioPage} />
+            {/* <Route exact path="/about" component={AboutPage} />
+            <Route exact path="/projects" component={PortfolioPage} /> */}
+            <Redirect from="*" to="/" />
           </Switch>
         </Router>
       </div>

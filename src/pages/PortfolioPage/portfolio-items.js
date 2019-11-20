@@ -55,10 +55,42 @@ export default [
     )
   },
   {
+    id: "11",
+    name: "calorieCompose",
+    render: (
+      <AccordionItem className="portfolio-item" uuid="11">
+        <AccordionItemHeading>
+          <AccordionItemButton>
+            <div className="portfolio-item__title">Python Notebooks</div>
+          </AccordionItemButton>
+        </AccordionItemHeading>
+        <AccordionItemPanel>
+          <div className="portfolio-item__links"></div>
+          <div className="portfolio-item__desc">
+            Some Datascience Python notebooks
+            <br />
+            <ul>
+              <li>
+                <a href="http://sh.vutsalsinghal.xyz/pynb/simple-movie-rec">
+                  <i>● Simple movie recommender</i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <hr />
+          <p className="portfolio-item__desc">Built with:</p>
+          <div className="portfolio-item__icon">
+            <i className="fab fa-python"></i>
+          </div>
+        </AccordionItemPanel>
+      </AccordionItem>
+    )
+  },
+  {
     id: "1",
     name: "docker4edu",
     render: (
-      <AccordionItem className="portfolio-item">
+      <AccordionItem className="portfolio-item" uuid="1">
         <AccordionItemHeading>
           <AccordionItemButton>
             <div className="portfolio-item__title">Docker For Edu</div>
@@ -103,7 +135,7 @@ export default [
     id: "2",
     name: "react-maps",
     render: (
-      <AccordionItem className="portfolio-item">
+      <AccordionItem className="portfolio-item" uuid="2">
         <AccordionItemHeading>
           <AccordionItemButton>
             <div className="portfolio-item__title">Nearby Places</div>
@@ -149,7 +181,7 @@ export default [
     id: "3",
     name: "portfolio",
     render: (
-      <AccordionItem className="portfolio-item">
+      <AccordionItem className="portfolio-item" uuid="3">
         <AccordionItemHeading>
           <AccordionItemButton>
             <div className="portfolio-item__title">Dev Portfolio</div>
@@ -190,7 +222,7 @@ export default [
     id: "4",
     name: "zatanna",
     render: (
-      <AccordionItem className="portfolio-item">
+      <AccordionItem className="portfolio-item" uuid="4">
         <AccordionItemHeading>
           <AccordionItemButton>
             <div className="portfolio-item__title">Zatanna</div>
@@ -242,7 +274,7 @@ export default [
     id: "5",
     name: "diningConcierge",
     render: (
-      <AccordionItem className="portfolio-item">
+      <AccordionItem className="portfolio-item" uuid="5">
         <AccordionItemHeading>
           <AccordionItemButton>
             <div className="portfolio-item__title">Dining Concierge</div>
@@ -284,7 +316,7 @@ export default [
     id: "6",
     name: "offChainStorage",
     render: (
-      <AccordionItem className="portfolio-item">
+      <AccordionItem className="portfolio-item" uuid="6">
         <AccordionItemHeading>
           <AccordionItemButton>
             <div className="portfolio-item__title">Off-Chain Storage</div>
@@ -330,7 +362,7 @@ export default [
     id: "7",
     name: "handwrittenDigit",
     render: (
-      <AccordionItem className="portfolio-item">
+      <AccordionItem className="portfolio-item" uuid="7">
         <AccordionItemHeading>
           <AccordionItemButton>
             <div className="portfolio-item__title">Digits Classification</div>
@@ -377,7 +409,7 @@ export default [
     id: "8",
     name: "cleanFlow",
     render: (
-      <AccordionItem className="portfolio-item">
+      <AccordionItem className="portfolio-item" uuid="8">
         <AccordionItemHeading>
           <AccordionItemButton>
             <div className="portfolio-item__title">CleanFlow</div>
@@ -422,7 +454,7 @@ export default [
     id: "9",
     name: "attendanceCoin",
     render: (
-      <AccordionItem className="portfolio-item">
+      <AccordionItem className="portfolio-item" uuid="9">
         <AccordionItemHeading>
           <AccordionItemButton>
             <div className="portfolio-item__title">Attendance Coin</div>
@@ -469,7 +501,7 @@ export default [
     id: "10",
     name: "passwordManager",
     render: (
-      <AccordionItem className="portfolio-item">
+      <AccordionItem className="portfolio-item" uuid="10">
         <AccordionItemHeading>
           <AccordionItemButton>
             <div className="portfolio-item__title">Password Manager</div>

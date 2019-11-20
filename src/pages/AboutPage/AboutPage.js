@@ -37,23 +37,27 @@ const AboutPage = (props, context) => {
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
               I live by Albert Einstein's words -{" "}
-              <span className="highlight">
-                "The more I learn, the more I realize how much I don't know".
+              <span className="highlight" style={{ fontSize: "0.8em" }}>
+                "The more I learn, the more I realize how much I don't know"
               </span>
+              .
             </p>
-            <p>
+            {/* <p>
               I believe in maintaining a strong forward momentum by constantly
               challenging myself to explore and learn new things.
+            </p> */}
+            <br />
+            <br />
+            <p style={{ fontSize: "0.9em", fontWeight: "bold" }}>
+              Software Engineer's Oath (by Robert C. Martin) I Try to Live By:
             </p>
-            <br />
-            <b>Software Engineer's Oath I Try to Live By:</b>
-            <br />
-            <br />
             <ul
               style={{
                 display: "inline-block",
                 testAlign: "justify",
-                justifyContent: "space-around"
+                justifyContent: "space-around",
+                fontSize: "0.9em",
+                marginLeft: "2em"
               }}
             >
               <li style={{ listStyleType: "disc" }}>
@@ -61,6 +65,13 @@ const AboutPage = (props, context) => {
               </li>
               <li style={{ listStyleType: "disc" }}>
                 The code I produce will always be my best work.
+              </li>
+              <li style={{ listStyleType: "disc" }}>
+                I will never stop learning and improving my craft.
+              </li>
+              <li style={{ listStyleType: "disc" }}>
+                I will produce estimates that are honest both in magnitude and
+                precision.
               </li>
               <li style={{ listStyleType: "disc" }}>
                 I will produce , with each release, a quick, sure and repeatable
@@ -81,13 +92,6 @@ const AboutPage = (props, context) => {
               <li style={{ listStyleType: "disc" }}>
                 I will continuously ensure that others can cover for me and that
                 I can cover for them.
-              </li>
-              <li style={{ listStyleType: "disc" }}>
-                I will produce estimates that are honest both in magnitude and
-                precision.
-              </li>
-              <li style={{ listStyleType: "disc" }}>
-                I will never stop learning and improving my craft.
               </li>
             </ul>
             <p className="text-emoji" style={{ color: colorPrimary }}>
