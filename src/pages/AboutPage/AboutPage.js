@@ -36,10 +36,9 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              I live by Albert Einstein's words -{" "}
               <span className="highlight" style={{ fontSize: "0.8em" }}>
                 "The more I learn, the more I realize how much I don't know"
-              </span>
+              </span> - {" "}Albert Einstein
               .
             </p>
             {/* <p>
